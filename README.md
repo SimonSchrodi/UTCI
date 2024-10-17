@@ -11,7 +11,7 @@
 
 2. Run `python preprocess.py --raw_data data/raw/UHTC_NN --output_dir data`
 
-3. Run `python preprocess_mean_std.py --output_dir data` and copy the printed strings into `UTCI_STATISTICS` in `utils.py`
+3. Run `python preprocess_mean_std.py --output_dir data` and copy the printed strings into the dictionary `UTCI_STATISTICS` in `utils.py`
 
 ## Train
 
